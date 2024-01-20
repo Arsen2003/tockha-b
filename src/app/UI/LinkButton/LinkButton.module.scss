@@ -1,0 +1,16 @@
+.a {
+  box-sizing: border-box;
+  width: 200px;
+  text-align: center;
+  white-space: nowrap;
+  border:1px solid  #2D283E ;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #2D283E;
+  font-size: 1rem;
+  &:hover {
+      background-color: #00887A;
+      color: white;
+      border-color: #00887A;
+  }
+}

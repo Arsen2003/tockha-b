@@ -1,0 +1,55 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 20px;
+  gap: 20px;
+  > img {
+   border-radius: 5px;
+  }
+  &:hover {
+    animation: bounce 1s;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  > span {
+    white-space: nowrap;
+    font-size: 1.125rem;
+  }
+  > p {
+    text-overflow: hidden;
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	40% {
+    transform: translateX(-10px);
+    transform: translateX(-10px);
+	}
+
+	80% {
+		    transform: translateX(-10px);
+		    transform: translateX(-10px);
+	}
+}
+
+@media screen and (max-width:520px) {
+  .item {
+    border-radius: 0px;
+  }
+}

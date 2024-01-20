@@ -1,0 +1,47 @@
+.aside {
+  float: right;
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primeryColor);
+  z-index: 5;
+}
+.aside_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+ > a {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    &:hover{
+       color: #00887A;
+    }
+  }
+}
+
+.active {
+  display: flex;
+}
+
+.aside_button {
+  position: fixed;
+  left: 30px;
+  top: 10px;
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+
+}

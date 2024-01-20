@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 26px 20px;
+}
+
+.location {
+
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  gap: 5px;
+  > span {
+    text-align: start;
+     font-size: 16px;
+     white-space: nowrap;
+
+  }
+  > img {
+    padding-top: 3px;
+
+  }
+}
+
+.sizes {
+  > span {
+    white-space: nowrap;
+  }
+}
+
+.category {
+  display: flex;
+  gap: 10px;
+  > span {
+    white-space: nowrap;
+  }
+}
