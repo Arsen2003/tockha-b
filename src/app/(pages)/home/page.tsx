@@ -10,14 +10,15 @@ import HomeContacts from './home-items/home-contacts/HomeContacts'
 import Image from 'next/image'
 import arrowIcon from '../../assets/icons/arrow-right-icon.svg'
 import Head from 'next/head'
+
 export default function HomePage () {
 
 
   return (
     <main style={jura.style} className={styles.main}>
-    <Head>
-      <title>home</title>
-    </Head>
+      <Head>
+        <title>home</title>
+      </Head>
       <div className="container">
         <div className={styles.content}>
           <div className={styles.left}>
@@ -46,8 +47,7 @@ export default function HomePage () {
               логистики сборных грузов по Кыргызстану
             </p>
             <div>
-              <LinkButton href={'/'}>Доставить груз</LinkButton>
-              <LinkButton href={'/'}>Взять заказ</LinkButton>
+              <LinkButton href={'/create-cargo'}>Доставить груз</LinkButton>
             </div>
           </div>
         </div>

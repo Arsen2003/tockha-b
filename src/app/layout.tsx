@@ -3,10 +3,10 @@ import { jura } from './assets/Fonts/Font'
 import './globals.css'
 import Header from './(pages)/util/Header/Header'
 import Footer from './(pages)/util/Footer/Footer'
-
+import { Analytics } from '@vercel/analytics/react'
 export const metadata: Metadata = {
   title: 'TEZ-TEZ CARGO',
-  description: 'TEZ-TEZ CARGO,перевозка сборных грузов по КЫРГЫЗСТАНУ,Логистическими и распрделетильными базами.Услуги от склада до склада (Бишкек - Ош)',
+  description: '  ',
 }
 
 export default function RootLayout({
@@ -16,9 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
       <body className={jura.className}>
         <Header />
         {children}
+        <Analytics/>
         <Footer />
       </body>
     </html>
