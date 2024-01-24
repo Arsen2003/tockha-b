@@ -9,12 +9,10 @@ export const metadata: Metadata = {
 }
 
 
-
 export default function CreateCargo (){
   return (
     <main className={styles.main}>
       <div  className='container'>
-
         <CargoCreateForm/>
       </div>
     </main>

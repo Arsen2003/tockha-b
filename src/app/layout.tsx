@@ -6,6 +6,7 @@ import Footer from './(pages)/util/Footer/Footer'
 import { Analytics } from '@vercel/analytics/react'
 export const metadata: Metadata = {
   title: 'TEZ-TEZ CARGO',
+
   description:
     'Грузоперевозки по Кыргызстану,сборные грузы всем регионам (LTL) ,так же (FTL) ',
 }

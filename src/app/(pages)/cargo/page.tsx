@@ -2,9 +2,7 @@ import styles from './Cargo.module.scss'
 import TextInput from '@/app/UI/TextInput/TextInput'
 import doubleArrowIcon from '../../assets/icons/double-arrow-icon.svg'
 import Image from 'next/image'
-import SizeInput from '@/app/UI/SizeInput/SizeInput'
 import CButton from '@/app/UI/CButton/CButtont'
-import weightIcon from '../../assets/icons/weight-icon.svg'
 import CargoContainer from '@/app/components/CargoComponents/CargoContainer/CargoContainer'
 export default function CargoPage() {
   return (
