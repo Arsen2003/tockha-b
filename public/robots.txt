@@ -1,5 +1,3 @@
-google-site-verification=YZuCiKOXDwr-nOPJ7XpqbcH2oVQ82VeUDowVVkn4IrQ
-
 # *
 User-agent: *
 Allow: /
