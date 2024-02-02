@@ -5,7 +5,7 @@ import Header from './(pages)/util/Header/Header'
 import Footer from './(pages)/util/Footer/Footer'
 import { Analytics } from '@vercel/analytics/react'
 export const metadata: Metadata = {
-  title: 'TEZ-TEZ CARGO',
+  title: 'TEZ-TEZ CARGO | БИШКЕК КАРГО',
 
   description:
     'Грузоперевозки по Кыргызстану,сборные грузы всем регионам (LTL) ,так же (FTL). Отправка всех видов грузов и грузоперевозка по самым низким рыночным ценам в Россию ,Китай, Турция Иран. ',
