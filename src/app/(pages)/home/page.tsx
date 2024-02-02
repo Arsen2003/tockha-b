@@ -10,7 +10,8 @@ import HomeContacts from './home-items/home-contacts/HomeContacts'
 import Image from 'next/image'
 import arrowIcon from '../../assets/icons/arrow-right-icon.svg'
 import Head from 'next/head'
-
+import chinaFlag from '../../assets/icons/flag-china-icon.svg'
+import russiaFlag from '../../assets/icons/flag-russia-icon.svg'
 export default function HomePage () {
 
 
@@ -51,6 +52,31 @@ export default function HomePage () {
             </div>
           </div>
         </div>
+        <section className={styles.international}>
+          <h3>Международные грузоперевозки</h3>
+          <div>
+            <span>
+              <Image
+                src={chinaFlag}
+                alt="china-flag-icon"
+                width={100}
+                height={100}
+                translate="yes"
+              />
+              КИТАЙ
+            </span>
+            <span>
+              <Image
+                src={russiaFlag}
+                alt="russia-flag-icon"
+                width={100}
+                height={100}
+                translate="yes"
+              />
+              РОССИЯ
+            </span>
+          </div>
+        </section>
         <section className={styles.info}>
           <h1>КАК МЫ РАБОТАЕМ ?</h1>
           <div className={styles.info__content}>
